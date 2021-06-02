@@ -6,7 +6,7 @@ public class SelectCellule : MonoBehaviour {
     public Transform Cellfav;
     
 void Update(){
-   if (Input.GetMouseButtonDown(0)){ // if left button pressed... 1 = right button and 2 = scroll button
+   if (Input.GetMouseButtonDown(0)){ // if left button pressed
         RaycastHit hit;
         Ray ray = camera.ScreenPointToRay(Input.mousePosition);
         
