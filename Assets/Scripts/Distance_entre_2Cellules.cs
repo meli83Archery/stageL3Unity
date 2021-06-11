@@ -34,10 +34,10 @@ public class Distance_entre_2Cellules : MonoBehaviour{
     }
 
 /*Specification : 
-Entree : deux Cellule de type Transform, Cellule1 et Cellule2
-Sortie : un float distance qui est la distance entre les deux cellules en paramètres
-Cette fonction cree un vecteur position pour chacune des cellules et calcule la distance à partir
-de ces deux vecteurs
+    Entree : deux Cellule de type Transform, Cellule1 et Cellule2
+    Sortie : un float distance qui est la distance entre les deux cellules en paramètres
+    Cette fonction cree un vecteur position pour chacune des cellules et calcule la distance à partir
+    de ces deux vecteurs
 */		
 public float distance2Cellules(Transform Cellule1,Transform Cellule2){
     Vector3 coordonnees1 = new Vector3(Cellule1.transform.position.x,Cellule1.transform.position.y,Cellule1.transform.position.z);
